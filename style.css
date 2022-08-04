@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #6750A4;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+/* Flexbox */
+#header, #randomWeapons, #footer {
+    flex: 1 1 auto;
+}
+
+/* Header */
+
+#header {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#header img {
+    width: 48px;
+    height: 48px;
+}
+
+#header span {
+    color: #6750A4;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* randomWeapons */
+
+#randomWeapons h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+#randomWeapons .weapon {
+    border: 2px solid #D9D9D9;
+    border-radius: 12px 12px 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#randomWeapons .weapon:last-child {
+    border-radius: 0 0 12px 12px;
+    margin-top: -2px;
+}
+
+#randomWeapons .weapon span:first-child {
+    color: #6750A4;
+}
+
+#randomWeapons .weapon span {
+    padding: 0;
+    width: 100%;
+}
+
+#randomWeapons .weapon span:last-child {
+    text-align: right;
+}
+
+#randomWeapons .weapon span label {
+    color: #6750A4;
+    padding: 4px 10px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+/* bottomSection */
+
+#footer {
+    flex: 0;
+    margin-bottom: 60px;
+}
+
+#footer button {
+    background-color: #6750A4;
+    border: 0;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    color: white;
+    border-radius: 60px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#footer button:hover {
+    background-color: black;
+}
+
+#footer button:active {
+    background-color: #6750A4;
+}
