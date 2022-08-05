@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Warzone Random Loadout Generator</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -18,23 +20,28 @@
             <div class="weapon">
                 <span>01</span>
                 <span>XM4</span>
-                <span>
-                    <label>AR</label>
-                </span>
+                <label>AR</label>
             </div>
 
             <div class="weapon">
                 <span>02</span>
-                <span>Kar98</span>
-                <span>
-                    <label>Sniper</label>
-                </span>
+                <span id="weaponName2">Kar98</span>
+                <label id="weaponType2">Sniper</label>
             </div>
-
         </div>
 
         <div id="footer">
-            <button>Generate Loadout</button>
+            <button onClick="window.location.reload(true)">Generate Loadout</button>
         </div>
     </body>
+
+    <!-- Scripts -->
+    <script>
+        // Weapon 1
+        // Weapon 1 type
+        // Weapon 2
+        document.getElementById("weaponName2").innerHTML = marksmanWeaponName;
+        // Weapon 2 type
+        document.getElementById("weaponType2").innerHTML = marksmanWeaponType;
+    </script>
 </html>

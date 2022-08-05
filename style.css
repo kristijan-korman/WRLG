@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700;900');
+*/
 
 * {
     font-family: 'Roboto Mono', monospace;
@@ -78,19 +80,18 @@ body {
 }
 
 #randomWeapons .weapon span:first-child {
+    width: 100px;
     color: #6750A4;
 }
 
 #randomWeapons .weapon span {
+    text-align: left;
     padding: 0;
     width: 100%;
 }
 
-#randomWeapons .weapon span:last-child {
+#randomWeapons .weapon label {
     text-align: right;
-}
-
-#randomWeapons .weapon span label {
     color: #6750A4;
     padding: 4px 10px;
     background: #D9D9D9;
@@ -122,4 +123,13 @@ body {
 
 #footer button:active {
     background-color: #6750A4;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: auto;
+        padding: 0 20px;
+    }
 }
