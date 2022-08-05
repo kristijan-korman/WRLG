@@ -19,26 +19,32 @@
 
             <div class="weapon">
                 <span>01</span>
-                <span>XM4</span>
-                <label>AR</label>
+                <span id="weaponName1" style="margin-left: -4px;">XM4</span>
+                <span>
+                    <label id="weaponType1">AR</label>
+                </span>
             </div>
 
             <div class="weapon">
                 <span>02</span>
                 <span id="weaponName2">Kar98</span>
-                <label id="weaponType2">Sniper</label>
+                <span>
+                    <label id="weaponType2">Sniper</label>
+                </span>
             </div>
         </div>
 
         <div id="footer">
-            <button onClick="window.location.reload(true)">Generate Loadout</button>
+            <a href="#" onClick="window.location.reload(true)">Generate Loadout</a>
         </div>
     </body>
 
     <!-- Scripts -->
     <script>
         // Weapon 1
+        document.getElementById("weaponName1").innerHTML = arWeaponName;
         // Weapon 1 type
+        document.getElementById("weaponType1").innerHTML = arWeaponType;
         // Weapon 2
         document.getElementById("weaponName2").innerHTML = marksmanWeaponName;
         // Weapon 2 type

@@ -90,6 +90,11 @@ body {
     width: 100%;
 }
 
+#randomWeapons .weapon span:last-child {
+    text-align: right;
+    width: 100px;
+}
+
 #randomWeapons .weapon label {
     text-align: right;
     color: #6750A4;
@@ -106,22 +111,24 @@ body {
     margin-bottom: 60px;
 }
 
-#footer button {
+#footer a {
     background-color: #6750A4;
     border: 0;
     text-transform: uppercase;
     padding: 20px 60px;
     color: white;
     border-radius: 60px;
-    width: 100%;
     font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 }
 
-#footer button:hover {
+#footer a:hover {
     background-color: black;
 }
 
-#footer button:active {
+#footer a:active {
     background-color: #6750A4;
 }
 
