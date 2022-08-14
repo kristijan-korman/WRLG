@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 90vh;
+    height: 100vh;
 }
 
 /* Flexbox */
@@ -98,7 +98,7 @@ body {
 
 #footer {
     flex: 0;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 #footer a {
@@ -127,9 +127,10 @@ body {
 @media only screen and (max-width: 480px) {
     body {
         width: auto;
+        padding: 0 20px;
     }
 
-    #footer {
+    /*#footer {
         margin-bottom: 0;
-    }
+    }*/
 }
