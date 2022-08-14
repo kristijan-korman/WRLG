@@ -2,6 +2,7 @@
 
 let randomWeaponType;
 let weapon;
+let random;
 let weaponName;
 let weaponType;
 
@@ -649,68 +650,82 @@ let weaponTypes = [
     'pistol'
 ];
 
+/*
+let randWeaponLength = weaponTypes.length;
+console.log(randWeaponLength);
+
+console.log(Math.round(Math.random() * (randWeaponLength - 1)));
+*/
+
 // Random weapon type function
 function RandomWeaponType() {
     randomWeaponType = Math.round(Math.random() * (weaponTypes.length -1));
     randomWeaponType = weaponTypes[randomWeaponType];
-    //console.log('Random weapon type: ' + randomWeaponType);
 }
 
 // Random weapon function
 function RandomWeapon() {
     if (randomWeaponType === 'ar') {
         weapon = ar;
-        weaponName = weapon[Math.round(Math.random() * (ar.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (ar.length -1))].weaponType;
+        random = Math.round(Math.random() * (ar.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'smg') {
         weapon = smg;
-        weaponName = weapon[Math.round(Math.random() * (smg.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (smg.length -1))].weaponType;
+        random = Math.round(Math.random() * (smg.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'launcher') {
         weapon = launcher;
-        weaponName = weapon[Math.round(Math.random() * (launcher.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (launcher.length -1))].weaponType;
+        random = Math.round(Math.random() * (launcher.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'lmg') {
         weapon = lmg;
-        weaponName = weapon[Math.round(Math.random() * (lmg.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (lmg.length -1))].weaponType;
+        random = Math.round(Math.random() * (lmg.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'sniper') {
         weapon = sniper;
-        weaponName = weapon[Math.round(Math.random() * (sniper.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (sniper.length -1))].weaponType;
+        random = Math.round(Math.random() * (sniper.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'marksman') {
         weapon = marksman;
-        weaponName = weapon[Math.round(Math.random() * (marksman.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (marksman.length -1))].weaponType;
+        random = Math.round(Math.random() * (marksman.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'shotgun') {
         weapon = shotgun;
-        weaponName = weapon[Math.round(Math.random() * (shotgun.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (shotgun.length -1))].weaponType;
+        random = Math.round(Math.random() * (shotgun.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
     else if (randomWeaponType === 'pistol') {
         weapon = pistol;
-        weaponName = weapon[Math.round(Math.random() * (pistol.length -1))].weaponName;
-        weaponType = weapon[Math.round(Math.random() * (pistol.length -1))].weaponType;
+        random = Math.round(Math.random() * (pistol.length -1));
+        weaponName = weapon[random].weaponName;
+        weaponType = weapon[random].weaponType;
         console.log(weaponName +', '+ weaponType);
     }
 
