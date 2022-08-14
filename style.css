@@ -96,10 +96,12 @@ body {
 
 /* bottomSection */
 
+/*
 #footer {
     flex: 0;
-    /*margin-bottom: 60px;*/
+    margin-bottom: 60px;
 }
+*/
 
 #footer a {
     background-color: #5865F2;
