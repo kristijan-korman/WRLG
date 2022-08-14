@@ -1,24 +1,20 @@
-/*
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700;900');
-*/
 
 * {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 a {
-    color: #6750A4;
-}
-
-a:hover {
-    color: black;
+    color: #5865F2;
 }
 
 body {
     width: 300px;
     margin: 0 auto;
+    background: #151522;
 
     display: flex;
     flex-direction: column;
@@ -34,12 +30,11 @@ body {
 /* Header */
 
 #header {
-    text-align: center;
-    margin-top: 60px;
+    text-align: left;
+    margin-top: 40px;
 }
 
 #header h1 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 32px;
 }
@@ -49,26 +44,21 @@ body {
     height: 48px;
 }
 
-#header span {
-    color: #6750A4;
+#header div {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 /* randomWeapons */
 
-#randomWeapons h2 {
-    text-transform: uppercase;
-    font-size: 16px;
-    margin: 16px 0;
-}
-
 #randomWeapons .weapon {
-    border: 2px solid #D9D9D9;
+    border: 2px solid transparent;
     border-radius: 12px 12px 0 0;
     font-size: 20px;
     font-weight: 400;
     padding: 20px;
+    background: #272639;
 
     display: flex;
     justify-content: space-between;
@@ -76,12 +66,12 @@ body {
 
 #randomWeapons .weapon:last-child {
     border-radius: 0 0 12px 12px;
-    margin-top: -2px;
+    margin-top: 2px;
 }
 
 #randomWeapons .weapon span:first-child {
     width: 100px;
-    color: #6750A4;
+    color: #5865F2;
 }
 
 #randomWeapons .weapon span {
@@ -97,9 +87,8 @@ body {
 
 #randomWeapons .weapon label {
     text-align: right;
-    color: #6750A4;
     padding: 4px 10px;
-    background: #D9D9D9;
+    background: #3C3B4C;
     border-radius: 12px;
     font-size: 12px;
 }
@@ -112,12 +101,12 @@ body {
 }
 
 #footer a {
-    background-color: #6750A4;
+    background-color: #5865F2;
     border: 0;
     text-transform: uppercase;
     padding: 20px 60px;
     color: white;
-    border-radius: 60px;
+    border-radius: 12px;
     font-weight: bold;
     text-decoration: none;
     display: block;
@@ -125,11 +114,11 @@ body {
 }
 
 #footer a:hover {
-    background-color: black;
+    background-color: #272639;
 }
 
 #footer a:active {
-    background-color: #6750A4;
+    background-color: #272639;
 }
 
 /* Mobile */
