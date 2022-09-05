@@ -282,6 +282,66 @@ let cx_9 = {
 
 const smg = [mp_40, sten, m1928, owen_gun, type_100, ppsh_41_cw, ppsh_41_vg, welgun, armaguerra_43, h4_blixen, marco_5, mp5_mw, mp5_cw, milano_821, ak_47u, ksp_45, bullfrog, mac_10, lc10, nail_gun, ots_9, tec_9, lapa, aug, p90, uzi, pp19_bizon, mp7, striker_45, fennec, iso, cx_9];
 
+const launchers = {
+    m1_bazooka : {
+        weaponName: 'M1 Bazooka', 
+        weaponType: 'Launcher',
+        attachments: {
+            supressors : ['supPrvi', 'supDrugi', 'supTri'],
+            magazine : ['magPrvi', 'magDva', 'magTri']
+        }
+    },
+    panzerschreck : {
+        weaponName: 'Panzerschreck',
+        weaponType: 'Launcher'
+    },
+    panzerfaust : {
+        weaponName: 'Panzerfaust',
+        weaponType: 'Launcher'
+    },
+    mk11_launcher : {
+        weaponName: 'MK11 Launcher',
+        weaponType: 'Launcher'
+    },
+    cigma_2 :{
+        weaponName: 'Cigma 2',
+        weaponType: 'Launcher'
+    },
+    rpg_7_mw : {
+        weaponName: 'RPG-7 (MW)',
+        weaponType: 'Launcher'
+    },
+    rpg_7_cw : {
+        weaponName: 'RPG-7 (CW)',
+        weaponType: 'Launcher'
+    },
+    pila : {
+        weaponName: 'PILA',
+        weaponType: 'Launcher'
+    },
+    strela_p : {
+        weaponName: 'Strela-P',
+        weaponType: 'Launcher'
+    },
+    jokr : {
+        weaponName: 'JOKR',
+        weaponType: 'Launcher'
+    },
+    mgl_32_grenade_launcher : {
+        weaponName: 'MGL-32 Grenade Launcher',
+        weaponType: 'Launcher'
+    }
+}
+
+// Get attachment
+launchers.m1_bazooka.attachments.supressors[1];
+
+// Get length of object
+Object.keys(launchers).length;
+
+// Get first [0] property of the launchers array and inside it select second [1] suppressor
+Object.values(launchers)[0].attachments.supressors[1];
+
 // Launcher list
 let m1_bazooka = {
     weaponName: 'M1 Bazooka',
