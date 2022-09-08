@@ -14,635 +14,485 @@ export const weapons = {
     ar : {
         stg44 : {
             weaponName: 'STG44',
-            weaponType: 'AR',
             attachments: {
                 supressors : ['supPrvi', 'supDrugi', 'supTri'],
                 magazine : ['magPrvi', 'magDva', 'magTri']
             }
         },
         automaton : {
-            weaponName: 'Automaton',
-            weaponType: 'AR'
+            weaponName: 'Automaton'
         },
         itra_burst : {
-            weaponName: 'Itra Burst',
-            weaponType: 'AR'
+            weaponName: 'Itra Burst'
         },
         bar : {
-            weaponName: 'Bar',
-            weaponType: 'AR'
+            weaponName: 'Bar'
         },
         as44 : {
-            weaponName: 'AS44',
-            weaponType: 'AR'
+            weaponName: 'AS44'
         },
         nz_41 : {
-            weaponName: 'NZ-41',
-            weaponType: 'AR'
+            weaponName: 'NZ-41'
         },
         volk : {
-            weaponName: 'Volk',
-            weaponType: 'AR'
+            weaponName: 'Volk'
         },
         cooper_carbine : {
-            weaponName: 'Cooper Carbine',
-            weaponType: 'AR'
+            weaponName: 'Cooper Carbine'
         },
         kg_m40 : {
-            weaponName: 'KG M40',
-            weaponType: 'AR'
+            weaponName: 'KG M40'
         },
         nikita_avt : {
-            weaponName: 'Nikita AVT',
-            weaponType: 'AR'
+            weaponName: 'Nikita AVT'
         },
         vargo_s : {
-            weaponName: 'Vargo-S',
-            weaponType: 'AR'
+            weaponName: 'Vargo-S'
         },
         xm4 : {
-            weaponName: 'XM4',
-            weaponType: 'AR'
+            weaponName: 'XM4'
         },
         ak_47_mw : {
-            weaponName: 'AK-47 (MW)',
-            weaponType: 'AR'
+            weaponName: 'AK-47 (MW)'
         },
         ak_47_cw : {
-            weaponName: 'AK-47 (CW)',
-            weaponType: 'AR'
+            weaponName: 'AK-47 (CW)'
         },
         krig_6 : {
-            weaponName: 'Krig 6',
-            weaponType: 'AR'
+            weaponName: 'Krig 6'
         },
         qbz_83 : {
-            weaponName: 'QBZ-83',
-            weaponType: 'AR'
+            weaponName: 'QBZ-83'
         },
         ffar_1 : {
-            weaponName: 'FFAR 1',
-            weaponType: 'AR'
+            weaponName: 'FFAR 1'
         },
         groza : {
-            weaponName: 'Groza',
-            weaponType: 'AR'
+            weaponName: 'Groza'
         },
         fara_83 : {
-            weaponName: 'FARA 83',
-            weaponType: 'AR'
+            weaponName: 'FARA 83'
         },
         c58 : {
-            weaponName: 'C58',
-            weaponType: 'AR'
+            weaponName: 'C58'
         },
         em2 : {
-            weaponName: 'EM2',
-            weaponType: 'AR'
+            weaponName: 'EM2'
         },
         grav : {
-            weaponName: 'Grav',
-            weaponType: 'AR'
+            weaponName: 'Grav'
         },
         vargo_52 : {
-            weaponName: 'Vargo 52',
-            weaponType: 'AR'
+            weaponName: 'Vargo 52'
         },
         kilo_141 : {
-            weaponName: 'Kilo 141',
-            weaponType: 'AR'
+            weaponName: 'Kilo 141'
         },
         fal : {
-            weaponName: 'FAL',
-            weaponType: 'AR'
+            weaponName: 'FAL'
         },
         m4a1 : {
-            weaponName: 'M4A1',
-            weaponType: 'AR'
+            weaponName: 'M4A1'
         },
         fr_556 : {
-            weaponName: 'FR 5.56',
-            weaponType: 'AR'
+            weaponName: 'FR 5.56'
         },
         oden : {
-            weaponName: 'Oden',
-            weaponType: 'AR'
+            weaponName: 'Oden'
         },
         m13 : {
-            weaponName: 'M13',
-            weaponType: 'AR'
+            weaponName: 'M13'
         },
         fn_scar_17 : {
-            weaponName: 'FN Scar 17',
-            weaponType: 'AR'
+            weaponName: 'FN Scar 17'
         },
         ram_7 : {
-            weaponName: 'RAM-7',
-            weaponType: 'AR'
+            weaponName: 'RAM-7'
         },
         grau_556 : {
-            weaponName: 'Grau 5.56',
-            weaponType: 'AR'
+            weaponName: 'Grau 5.56'
         },
         cr_56_amax : {
-            weaponName: 'CR-56 AMAX',
-            weaponType: 'AR'
+            weaponName: 'CR-56 AMAX'
         },
         an_94 : {
-            weaponName: 'AN-94',
-            weaponType: 'AR'
+            weaponName: 'AN-94'
         },
         as_val : {
-            weaponName: 'AS VAL',
-            weaponType: 'AR'
+            weaponName: 'AS VAL'
         }
     },
 
     // SMG list
     smg : {
         mp_40 : {
-            weaponName: 'MP-40',
-            weaponType: 'SMG'
+            weaponName: 'MP-40'
         },
         sten : {
-            weaponName: 'Sten',
-            weaponType: 'SMG'
+            weaponName: 'Sten'
         },
         m1928 : {
-            weaponName: 'M1928',
-            weaponType: 'SMG'
+            weaponName: 'M1928'
         },
         owen_gun : {
-            weaponName: 'Owen Gun',
-            weaponType: 'SMG'
+            weaponName: 'Owen Gun'
         },
         type_100 : {
-            weaponName: 'Type 100',
-            weaponType: 'SMG'
+            weaponName: 'Type 100'
         },
         ppsh_41_cw : {
-            weaponName: 'PPSH-41 (CW)',
-            weaponType: 'SMG'
+            weaponName: 'PPSH-41 (CW)'
         },
         ppsh_41_vg : {
-            weaponName: 'PPSH-41 (VG)',
-            weaponType: 'SMG'
+            weaponName: 'PPSH-41 (VG)'
         },
         welgun : {
-            weaponName: 'Welgun',
-            weaponType: 'SMG'
+            weaponName: 'Welgun'
         },
         armaguerra_43 : {
-            weaponName: 'Armaguerra 43',
-            weaponType: 'SMG'
+            weaponName: 'Armaguerra 43'
         },
         h4_blixen : {
-            weaponName: 'H4 Blixen',
-            weaponType: 'SMG'
+            weaponName: 'H4 Blixen'
         },
         marco_5 : {
-            weaponName: 'Marco 5',
-            weaponType: 'SMG'
+            weaponName: 'Marco 5'
         },
         mp5_mw : {
-            weaponName: 'MP5 (MW)',
-            weaponType: 'SMG'
+            weaponName: 'MP5 (MW)'
         },
         mp5_cw : {
-            weaponName: 'MP5 (CW)',
-            weaponType: 'SMG'
+            weaponName: 'MP5 (CW)'
         },
         milano_821 : {
-            weaponName: 'Milano 821',
-            weaponType: 'SMG'
+            weaponName: 'Milano 821'
         },
         ak_47u : {
-            weaponName: 'AK-74u',
-            weaponType: 'SMG'
+            weaponName: 'AK-74u'
         },
         ksp_45 : {
-            weaponName: 'KSP 45',
-            weaponType: 'SMG'
+            weaponName: 'KSP 45'
         },
         bullfrog : {
-            weaponName: 'Bullfrog',
-            weaponType: 'SMG'
+            weaponName: 'Bullfrog'
         },
         mac_10 : {
-            weaponName: 'MAC-10',
-            weaponType: 'SMG'
+            weaponName: 'MAC-10'
         },
         lc10 : {
-            weaponName: 'LC10',
-            weaponType: 'SMG'
+            weaponName: 'LC10'
         },
         nail_gun : {
-            weaponName: 'Nail Gun',
-            weaponType: 'SMG'
+            weaponName: 'Nail Gun'
         },
         ots_9 : {
-            weaponName: 'OTs 9',
-            weaponType: 'SMG'
+            weaponName: 'OTs 9'
         },
         tec_9 : {
-            weaponName: 'TEC-9',
-            weaponType: 'SMG'
+            weaponName: 'TEC-9'
         },
         lapa : {
-            weaponName: 'LAPA',
-            weaponType: 'SMG'
+            weaponName: 'LAPA'
         },
         aug : {
-            weaponName: 'AUG',
-            weaponType: 'SMG'
+            weaponName: 'AUG'
         },
         p90 : {
-            weaponName: 'P90',
-            weaponType: 'SMG'
+            weaponName: 'P90'
         },
         uzi : {
-            weaponName: 'Uzi',
-            weaponType: 'SMG'
+            weaponName: 'Uzi'
         },
         pp19_bizon : {
-            weaponName: 'PP19 Bizon',
-            weaponType: 'SMG'
+            weaponName: 'PP19 Bizon'
         },
         mp7 : {
-            weaponName: 'MP7',
-            weaponType: 'SMG'
+            weaponName: 'MP7'
         },
         striker_45 : {
-            weaponName: 'Striker 45',
-            weaponType: 'SMG'
+            weaponName: 'Striker 45'
         },
         fennec : {
-            weaponName: 'Fennec',
-            weaponType: 'SMG'
+            weaponName: 'Fennec'
         },
         iso : {
-            weaponName: 'ISO',
-            weaponType: 'SMG'
+            weaponName: 'ISO'
         },
         cx_9 : {
-            weaponName: 'CX-9',
-            weaponType: 'SMG'
+            weaponName: 'CX-9'
         }
     },
 
     // Shotgun list
     shotgun : {
         einhorn_revolving : {
-            weaponName: 'Einhorn Revolving',
-            weaponType: 'Shotgun'
+            weaponName: 'Einhorn Revolving'
         },
         combat_shotgun : {
-            weaponName: 'Combat Shotgun',
-            weaponType: 'Shotgun'
+            weaponName: 'Combat Shotgun'
         },
         gracey_auto : {
-            weaponName: 'Gracey Auto',
-            weaponType: 'Shotgun'
+            weaponName: 'Gracey Auto'
         },
         double_barrel : {
-            weaponName: 'Double Barrel',
-            weaponType: 'Shotgun'
+            weaponName: 'Double Barrel'
         },
         hauer_77 : {
-            weaponName: 'Hauer 77',
-            weaponType: 'Shotgun'
+            weaponName: 'Hauer 77'
         },
         gallo_sa12 : {
-            weaponName: 'Gallo SA12',
-            weaponType: 'Shotgun'
+            weaponName: 'Gallo SA12'
         },
         streetsweeper : {
-            weaponName: 'Streetsweeper',
-            weaponType: 'Shotgun'
+            weaponName: 'Streetsweeper'
         },
         point_410_ironhide : {
-            weaponName: '.410 Ironhide',
-            weaponType: 'Shotgun'
+            weaponName: '.410 Ironhide'
         },
         model_680 : {
-            weaponName: 'Model 680',
-            weaponType: 'Shotgun'
+            weaponName: 'Model 680'
         },
         r9_0_shotgun : {
-            weaponName: 'R9-0 Shotgun',
-            weaponType: 'Shotgun'
+            weaponName: 'R9-0 Shotgun'
         },
         sh725 : {
-            weaponName: '725',
-            weaponType: 'Shotgun'
+            weaponName: '725'
         },
         origin_12 : {
-            weaponName: 'Origin 12',
-            weaponType: 'Shotgun'
+            weaponName: 'Origin 12'
         },
         vlk_rogue : {
-            weaponName: 'VLK Rogue',
-            weaponType: 'Shotgun'
+            weaponName: 'VLK Rogue'
         },
         jak_12 : {
-            weaponName: 'JAK-12',
-            weaponType: 'Shotgun'
+            weaponName: 'JAK-12'
         }
     },
 
     // Pistol list
     pistol : {
         ratt : {
-            weaponName: 'Ratt',
-            weaponType: 'Pistol'
+            weaponName: 'Ratt'
         },
         top_break : {
-            weaponName: 'Top Break',
-            weaponType: 'Pistol'
+            weaponName: 'Top Break'
         },
         p1911_mw : {
-            weaponName: '1911 (MW)',
-            weaponType: 'Pistol'
+            weaponName: '1911 (MW)'
         },
         p1911_cw : {
-            weaponName: '1911 (CW)',
-            weaponType: 'Pistol'
+            weaponName: '1911 (CW)'
         },
         p1911_vg : {
-            weaponName: '1911 (VG)',
-            weaponType: 'Pistol'
+            weaponName: '1911 (VG)'
         },
         klauser : {
-            weaponName: 'Klauser',
-            weaponType: 'Pistol'
+            weaponName: 'Klauser'
         },
         machine_pistol : {
-            weaponName: 'Machine Pistol',
-            weaponType: 'Pistol'
+            weaponName: 'Machine Pistol'
         },
         magnum : {
-            weaponName: 'Magnum',
-            weaponType: 'Pistol'
+            weaponName: 'Magnum'
         },
         diamatti : {
-            weaponName: 'Diamatti',
-            weaponType: 'Pistol'
+            weaponName: 'Diamatti'
         },
         amp63 : {
-            weaponName: 'AMP63',
-            weaponType: 'Pistol'
+            weaponName: 'AMP63'
         },
         marshal : {
-            weaponName: 'Marshal',
-            weaponType: 'Pistol'
+            weaponName: 'Marshal'
         },
         x1 : {
-            weaponName: 'X1',
-            weaponType: 'Pistol'
+            weaponName: 'X1'
         },
         point_357 : {
-            weaponName: '.357',
-            weaponType: 'Pistol'
+            weaponName: '.357'
         },
         m19 : {
-            weaponName: 'M19',
-            weaponType: 'Pistol'
+            weaponName: 'M19'
         },
         point_50_gs : {
-            weaponName: '.50 GS',
-            weaponType: 'Pistol'
+            weaponName: '.50 GS'
         },
         renetti : {
-            weaponName: 'Renetti',
-            weaponType: 'Pistol'
+            weaponName: 'Renetti'
         },
         sykov : {
-            weaponName: 'Sykov',
-            weaponType: 'Pistol'
+            weaponName: 'Sykov'
         }
     },
 
     // Marksman list
     marksman : {
         m1_garand : {
-            weaponName: 'M1 Garand',
-            weaponType: 'Marksman'
+            weaponName: 'M1 Garand'
         },
         svt_40 : {
-            weaponName: 'SVT-40',
-            weaponType: 'Marksman'
+            weaponName: 'SVT-40'
         },
         g_43 : {
-            weaponName: 'G-43',
-            weaponType: 'Marksman'
+            weaponName: 'G-43'
         },
         m1916 : {
-            weaponName: 'M1916',
-            weaponType: 'Marksman'
+            weaponName: 'M1916'
         },
         ebr_14 : {
-            weaponName: 'EBR-14',
-            weaponType: 'Marksman'
+            weaponName: 'EBR-14'
         },
         mk2_carbine : {
-            weaponName: 'MK2 Carbine',
-            weaponType: 'Marksman'
+            weaponName: 'MK2 Carbine'
         },
         kar98k_mw : {
-            weaponName: 'Kar98k (MW)',
-            weaponType: 'Marksman'
+            weaponName: 'Kar98k (MW)'
         },
         crossbow : {
-            weaponName: 'Crossbow',
-            weaponType: 'Marksman'
+            weaponName: 'Crossbow'
         },
         sks : {
-            weaponName: 'SKS',
-            weaponType: 'Marksman'
+            weaponName: 'SKS'
         },
         spr_208 : {
-            weaponName: 'SP-R 208',
-            weaponType: 'Marksman'
+            weaponName: 'SP-R 208'
         }
     },
 
     // Launcher list
     launcher : {
         m1_bazooka : {
-            weaponName: 'M1 Bazooka', 
-            weaponType: 'Launcher'
+            weaponName: 'M1 Bazooka'
         },
         panzerschreck : {
-            weaponName: 'Panzerschreck',
-            weaponType: 'Launcher'
+            weaponName: 'Panzerschreck'
         },
         panzerfaust : {
-            weaponName: 'Panzerfaust',
-            weaponType: 'Launcher'
+            weaponName: 'Panzerfaust'
         },
         mk11_launcher : {
-            weaponName: 'MK11 Launcher',
-            weaponType: 'Launcher'
+            weaponName: 'MK11 Launcher'
         },
         cigma_2 :{
-            weaponName: 'Cigma 2',
-            weaponType: 'Launcher'
+            weaponName: 'Cigma 2'
         },
         rpg_7_mw : {
-            weaponName: 'RPG-7 (MW)',
-            weaponType: 'Launcher'
+            weaponName: 'RPG-7 (MW)'
         },
         rpg_7_cw : {
-            weaponName: 'RPG-7 (CW)',
-            weaponType: 'Launcher'
+            weaponName: 'RPG-7 (CW)'
         },
         pila : {
-            weaponName: 'PILA',
-            weaponType: 'Launcher'
+            weaponName: 'PILA'
         },
         strela_p : {
-            weaponName: 'Strela-P',
-            weaponType: 'Launcher'
+            weaponName: 'Strela-P'
         },
         jokr : {
-            weaponName: 'JOKR',
-            weaponType: 'Launcher'
+            weaponName: 'JOKR'
         },
         mgl_32_grenade_launcher : {
-            weaponName: 'MGL-32 Grenade Launcher',
-            weaponType: 'Launcher'
+            weaponName: 'MGL-32 Grenade Launcher'
         }
     },
 
     // Lmg list
     lmg : {
         mg42 : {
-            weaponName: 'MG42',
-            weaponType: 'LMG'
+            weaponName: 'MG42'
         },
         dp27 : {
-            weaponName: 'DP27',
-            weaponType: 'LMG'
+            weaponName: 'DP27'
         },
         type_11 : {
-            weaponName: 'Type 11',
-            weaponType: 'LMG'
+            weaponName: 'Type 11'
         },
         bren : {
-            weaponName: 'Bren',
-            weaponType: 'LMG'
+            weaponName: 'Bren'
         },
         whitley : {
-            weaponName: 'Whitley',
-            weaponType: 'LMG'
+            weaponName: 'Whitley'
         },
         ugm_8 : {
-            weaponName: 'UGM-8',
-            weaponType: 'LMG'
+            weaponName: 'UGM-8'
         },
         stoner_63 : {
-            weaponName: 'Stoner 63',
-            weaponType: 'LMG'
+            weaponName: 'Stoner 63'
         },
         rpd : {
-            weaponName: 'RPD',
-            weaponType: 'LMG'
+            weaponName: 'RPD'
         },
         m60 : {
-            weaponName: 'M60',
-            weaponType: 'LMG'
+            weaponName: 'M60'
         },
         mg_82 : {
-            weaponName: 'MG 82',
-            weaponType: 'LMG'
+            weaponName: 'MG 82'
         },
         pkm : {
-            weaponName: 'PKM',
-            weaponType: 'LMG'
+            weaponName: 'PKM'
         },
         sa87 : {
-            weaponName: 'SA87',
-            weaponType: 'LMG'
+            weaponName: 'SA87'
         },
         m91 : {
-            weaponName: 'M91',
-            weaponType: 'LMG'
+            weaponName: 'M91'
         },
         mg34 : {
-            weaponName: 'MG34',
-            weaponType: 'LMG'
+            weaponName: 'MG34'
         },
         holger_26 : {
-            weaponName: 'Holger-26',
-            weaponType: 'LMG'
+            weaponName: 'Holger-26'
         },
         bruen_mk9 : {
-            weaponName: 'Bruen MK9',
-            weaponType: 'LMG'
+            weaponName: 'Bruen MK9'
         },
         finn_lmg : {
-            weaponName: 'FiNN LMG',
-            weaponType: 'LMG'
+            weaponName: 'FiNN LMG'
         },
         raal_lmg : {
-            weaponName: 'RAAL MG',
-            weaponType: 'LMG'
+            weaponName: 'RAAL MG'
         }
     },
 
     // Sniper list
     sniper : {
         type_99 : {
-            weaponName: 'Type 99',
-            weaponType: 'Sniper'
+            weaponName: 'Type 99'
         },
         s3_line_rifle : {
-            weaponName: '3-Line Rifle',
-            weaponType: 'Sniper'
+            weaponName: '3-Line Rifle'
         },
         kar98k_vg : {
-            weaponName: 'Kar98k (VG)',
-            weaponType: 'Sniper'
+            weaponName: 'Kar98k (VG)'
         },
         gorenko_anti_tank_rifle : {
-            weaponName: 'Gorenko Anti-Tank Rifle',
-            weaponType: 'Sniper'
+            weaponName: 'Gorenko Anti-Tank Rifle'
         },
         pelington_703 : {
-            weaponName: 'Pelington 703',
-            weaponType: 'Sniper'
+            weaponName: 'Pelington 703'
         },
         lw3_tundra : {
-            weaponName: 'LW3 - Tundra',
-            weaponType: 'Sniper'
+            weaponName: 'LW3 - Tundra'
         },
         m82 : {
-            weaponName: 'M82',
-            weaponType: 'Sniper'
+            weaponName: 'M82'
         },
         zrg_20mm : {
-            weaponName: 'ZRG 20mm',
-            weaponType: 'Sniper'
+            weaponName: 'ZRG 20mm'
         },
         swiss_k31 : {
-            weaponName: 'Swiss K31',
-            weaponType: 'Sniper'
+            weaponName: 'Swiss K31'
         },
         dragunov : {
-            weaponName: 'Dragunov',
-            weaponType: 'Sniper'
+            weaponName: 'Dragunov'
         },
         hdr : {
-            weaponName: 'HDR',
-            weaponType: 'Sniper'
+            weaponName: 'HDR'
         },
         ax_50 : {
-            weaponName: 'AX-50',
-            weaponType: 'Sniper'
+            weaponName: 'AX-50'
         },
         rytec_amr : {
-            weaponName: 'Rytec AMR',
-            weaponType: 'Sniper'
+            weaponName: 'Rytec AMR'
         }
     }
 }
