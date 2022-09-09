@@ -1,6 +1,6 @@
 'use strict';
 
-import { weapons } from "/modules/weapons.js";
+import { weapons } from "./modules/weapons.js";
 
 let test = "Test";
 
